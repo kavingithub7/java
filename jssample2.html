@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <h1> enter the name reverse the name in string</h1>
+     
+      <label for="fname">ENTER YOURE NAME</label>
+      <input type="text" id="n1"><br>
+      <label for="sname">ENTER second NAME</label>
+      <input type="text" id="n2"><br>
+      <button onclick="f1()"> submit</button>
+      <script>
+            function f1()
+            {
+            let a,b,c;
+            a = document.getElementById("n1").value;
+            b = document.getElementById("n2").value;
+            c = a.concat(b);
+            document.write(c,"<br>");
+           
+            }
+
+      </script>
+      
+</body>
+</html>

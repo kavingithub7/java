@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <h1>
+            increase or decrease value using click button
+      </h1>
+      <label for="num"> ENTER THE NUMBER</label>
+      <input type="number" id="num1"><br>
+      <button onclick="f1()"> ADD</button><br>
+      <button onclick="f2()"> SUB</button><br>
+      <p id="demo"></p>
+      <script>
+            function f1()
+            {
+                  a = parseInt(document.getElementById("num1").value);
+                  b = a+1;
+                  document.getElementById("demo").innerHTML = b
+                  // document.write(b);
+                  
+            }
+            function f2()
+            {
+                  a = parseInt(document.getElementById("num1").value);
+                  b = a-1;
+                  document.getElementById("demo").innerHTML = b
+                  // document.write(b);
+                  
+            }
+      </script>
+
+      
+</body>
+</html>

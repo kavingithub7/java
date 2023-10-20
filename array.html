@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <h1>creating array</h1>
+      <p id="sort"></p>
+      <p id="sort1"></p>
+      <p id="sort2"></p>
+      <script>
+            let name = ["one","two","three","four"];
+            let name2 = ["one","two","three","four"];
+            let num = [ 10,2,40,90,11,77,55]
+            name.sort();
+            name2.reverse();
+            num.sort( function(a,b) {return a - b});
+            document.getElementById("sort").innerHTML= name;
+            document.getElementById("sort1").innerHTML= name2;
+            document.getElementById("sort2").innerHTML= num;
+
+      </script>
+</body>
+</html>
